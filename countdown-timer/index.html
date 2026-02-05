@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopWatch</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+   <script src="script.js" defer></script>
+
+    <div class="card">
+        <h2 class="title">1 Hour Countdown</h2>
+
+        <div class="display">
+            <div id="time" class="time">1:00:00</div>
+            <div id="status" class="sub">Ready</div>
+            <div class="progress-wrap">
+                <div id="progress" class="progress"></div>
+            </div>
+            <div class="controls">
+                <button id="startBtn" class="start" onclick="start()">Start</button>
+                <button id="pauseBtn" class="pause" onclick="pause()">Pause</button>
+                <button id="resetBtn" class="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
