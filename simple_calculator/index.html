@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <h1>Calculator</h1>
+    <div class="cal">
+
+        <div class="result-screen">
+
+       
+        <div class="screen-row">
+        
+            <input type="text" id="numb1" class="screen-box" readonly>
+            <input type="text" id="operator" class="screen-box" readonly>
+            <input type="text" id="numb2" class="screen-box" readonly>
+        
+        </div>
+            <input type="text"  id="result" class="ans-screen" readonly>
+         </div>
+
+   <table>
+      <tr>
+        <td><button  id="clear" onclick="onClear()">C</button></td>
+        <td><button  id="back" onclick="onBackspace()">⌫</button></td>
+        <td><button  id="neg" onclick="onNegate()">±</button></td>
+        <td><button class="op">%</button></td>
+      </tr>
+      <tr>
+        <td><button class="num">7</button></td>
+        <td><button class="num">8</button></td>
+        <td><button class="num">9</button></td>
+        <td><button class="op">/</button></td>
+      </tr>
+      <tr>
+        <td><button class="num">4</button></td>
+        <td><button class="num">5</button></td>
+        <td><button class="num">6</button></td>
+        <td><button class="op">*</button></td>
+      </tr>
+      <tr>
+        <td><button class="num">1</button></td>
+        <td><button class="num">2</button></td>
+        <td><button class="num">3</button></td>
+        <td><button class="op">-</button></td>
+      </tr>
+      <tr>
+        <td><button class="num">0</button></td>
+        <td><button class="num">.</button></td>
+        <td><button id="equals" class="op">=</button></td>
+        <td><button class="op">+</button></td>
+      </tr>
+    </table>
+     </div>
+
+    
+</body>
+</html>
+
